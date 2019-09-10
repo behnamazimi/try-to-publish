@@ -1,0 +1,43 @@
+{
+  "name": "try-to-publish",
+  "version": "0.0.1",
+  "description": "Just a test",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Behnam Azimi"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  },
+  "dependencies": {
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "prop-types": "15.7.2",
+    "react-scripts": "3.1.1",
+    "webpack": "4.39.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.0",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
+    "@babel/preset-env": "7.6.0",
+    "@babel/preset-react": "7.0.0",
+    "@babel/preset-stage-2": "7.0.0",
+    "babel-loader": "8.0.6",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-plugin-transform-react-jsx": "6.24.1",
+    "css-loader": "3.2.0",
+    "file-loader": "^4.2.0",
+    "node-sass": "4.12.0",
+    "sass-loader": "8.0.0",
+    "style-loader": "1.0.0",
+    "url-loader": "^2.1.0",
+    "webpack-cli": "3.3.8",
+    "webpack-external-react": "^1.1.2"
+  }
+}
